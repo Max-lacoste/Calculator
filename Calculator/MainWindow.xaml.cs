@@ -134,7 +134,6 @@ namespace Calculator
             int selectedValue = 0;
 
             //sets the selectedValue to the button number 
-            //switch may be better than if/else if
             if (sender == zeroButton) selectedValue = 0;
             else if (sender == oneButton) selectedValue = 1;
             else if (sender == twoButton) selectedValue = 2;
